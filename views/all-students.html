@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View All Students</title>
+</head>
+<body>
+
+<h1>GRC Students</h1>
+
+<ol>
+<repeat group="{{@students}}" key="{{@student}}" value="{{@info}}">
+    <li>{{@info['last']}}, {{@info['first']}}</li>
+</repeat>
+</ol>
+
+</body>
+</html>

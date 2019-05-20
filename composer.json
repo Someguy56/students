@@ -1,0 +1,15 @@
+{
+  "name": "mlee/328/students",
+  "authors": [
+    {
+      "name": "Max Lee",
+      "email": "mlee77@greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  },
+  "autoload": {
+    "classmap": ["model/"]
+  }
+}
